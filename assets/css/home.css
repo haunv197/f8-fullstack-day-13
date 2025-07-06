@@ -94,3 +94,9 @@ header nav ul li a {
   display: flex;
   justify-content: space-between;
 }
+
+.our-daily-offers__item-content__top {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
