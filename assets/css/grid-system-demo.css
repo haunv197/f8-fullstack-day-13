@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+.item {
+  background-color: rgb(131, 199, 29);
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  padding: 1rem;
+}
