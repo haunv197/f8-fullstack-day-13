@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+.container {
+  max-width: 1170px;
+}
+header .inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li a {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.header-right ul {
+  display: flex;
+}
+.header-right ul li a {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.section-spacing-bottom {
+  margin-bottom: 5rem;
+}
+
+.section-head {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.intro-banner__content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.our-menu__navigation {
+  margin-bottom: 3rem;
+}
+.our-menu__navigation ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.our-menu__navigation ul li a {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.our-menu__item {
+  display: flex;
+  justify-content: space-between;
+}
+.our-menu__item-left {
+  display: flex;
+}
+
+.our-menu__item-left .our-menu__img {
+  width: 76px;
+}
+
+.reserver__right img {
+  width: 100%;
+}
+
+.our-daily-offers__item {
+  display: flex;
+}
+
+.feature-highlights ul {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+.menu-home-page {
+  background-color: #1ed5b9;
+}
+.menu-home-page ul {
+  display: flex;
+}
+.menu-home-page ul li a {
+  background-color: #1ed5b9;
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.menu-home-page li a:hover {
+  background-color: #fff;
+  color: #1ed5b9;
+}
